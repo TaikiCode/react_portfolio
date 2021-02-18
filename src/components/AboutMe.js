@@ -1,10 +1,9 @@
 import React from "react";
 import me from "../images/me.png";
 
-
 const AboutMe = () => {
   return (
-    <div id="about" className="container mt-4">
+    <div id="about" className="container mt-3">
       <div className="row">
         <div className="col-lg-5 col-xm-12">
           <div className="photo-wrap mb-4">
@@ -18,6 +17,7 @@ const AboutMe = () => {
             フロントエンドはReact、バックエンドはDjangoがまあまあ得意です。
             最近は、Web系以外にも人工知能やデータサイエンスの分野も勉強してます。
           </p>
+          <div></div>
         </div>
       </div>
     </div>

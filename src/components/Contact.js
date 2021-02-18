@@ -43,8 +43,7 @@ const Contact = () => {
       <div className="text-center">
         <h1>Contact me</h1>
         <p>
-          Please fill out the form and describe you project needs and I'll
-          contact you as soon as possible.
+          最後までご覧いただきありがとうございました。もし何かコメントがありましたら、下記フォームをご利用ください。
         </p>
         <span className="success-message">{successMessage}</span>
       </div>
@@ -127,7 +126,7 @@ const Contact = () => {
               <span className="error-message">
                 {errors.description && errors.description.message}
               </span>
-              <button className="btn-main contact-btn" type="submit">
+              <button className="contact-btn" type="submit">
                 contact me
               </button>
             </div>
