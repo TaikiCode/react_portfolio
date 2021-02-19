@@ -12,6 +12,7 @@ import {
   openPopupboxCoin,
   openPopupboxTodo,
   openPopupboxSns,
+  openPopupboxPortfolio,
 } from "../components/Popup";
 
 const Portfolio = () => {
@@ -22,7 +23,7 @@ const Portfolio = () => {
 
         <div className="row justify-content-center mt-4">
           <div className="col-lg-6 p-0">
-            <div className="card" onClick={openPopupboxEc}>
+            <div className="card" onClick={openPopupboxPortfolio}>
               <img
                 className="portfolio-image"
                 src={portfolio}

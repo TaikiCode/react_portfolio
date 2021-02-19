@@ -21,15 +21,13 @@ body {
 /************************ NAVBAR *********************************/
 
 nav {
-  z-index: 10;
+  z-index: 100;
   background-color: transparent;
 }
 
 nav.active {
   background-color: var(--primary-transparent-black);
 }
-
-/* MENU LINKS */
 
 nav a.nav-link {
   font-size: 1rem;
@@ -226,7 +224,6 @@ nav ul li {
 }
 
 .timeline-content .date {
-  /* margin-top: 0.3125rem; */
   color: var(--primary-red);
   font-weight: 900;
 }
@@ -343,9 +340,7 @@ nav ul li {
 /************************ PORTFOLIO *********************************/
 
 .portfolio-wrapper {
-  /* background: var(--primary-grey); */
   background-color: #262626;
-  /* background-color: #333333; */
   padding: 3rem 0;
 }
 
@@ -379,7 +374,14 @@ nav ul li {
 
 .portfolio-image-popupbox {
   width: 100%;
-  /* padding: 0 0.5rem; */
+}
+
+.popup-topic {
+  font-size: 1.2rem;
+  font-family: italic !important;
+}
+.portfolio-wrapper p {
+  font-size: .9rem;
 }
 
 .hyper-link {
@@ -415,7 +417,7 @@ nav ul li {
   }
   .portfolio-image-popupbox {
     width: 50%;
-  }
+  }  
 }
 
 @media (max-height: 280px) {
@@ -429,7 +431,6 @@ nav ul li {
 
 /************************ CONTACTS COMPONENT *********************************/
 .contacts {
-  /* background: var(--primary-dark); */
   background-color: #222222;
   padding: 3rem 0;
 }
