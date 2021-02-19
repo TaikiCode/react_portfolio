@@ -10,12 +10,11 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2013-2014</h3>
+            <h3 className="topic">サッカー少年</h3>
+            <p className="font-italic">2010 ~ 2014</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              deserunt ab repellendus vel quisquam reprehenderit veniam optio,
-              quasi iusto corrupti nam ex molestiae explicabo sint, repudiandae
-              eius est delectus officia.
+              小学5年生の頃、イナズマイレブンの影響でサッカーを始める。
+              中学生になるとゴールキーパーとして市の選抜選手になるほど上達する。
             </p>
           </div>
         </div>
@@ -23,12 +22,11 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2014-2015</h3>
+            <h3 className="topic">引きこもり</h3>
+            <p className="font-italic">2015 ~ 2017</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              deserunt ab repellendus vel quisquam reprehenderit veniam optio,
-              quasi iusto corrupti nam ex molestiae explicabo sint, repudiandae
-              eius est delectus officia.
+              高校時代にオンラインゲームやYouTubeにハマりほぼ不登校になる。
+              しかし、偏差値40台の底辺高校だったのでなんとか卒業に成功する。
             </p>
           </div>
         </div>
@@ -36,12 +34,11 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2015-2016</h3>
+            <h3 className="topic">大学受験</h3>
+            <p className="font-italic">2018 ~ 2019</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              deserunt ab repellendus vel quisquam reprehenderit veniam optio,
-              quasi iusto corrupti nam ex molestiae explicabo sint, repudiandae
-              eius est delectus officia.
+              ふと上京したいと思い、浪人して１から受験勉強を開始する。
+              自分の地頭レベルを知るために独学での勉強を決意し、無事第一志望の青山学院大学に合格する。
             </p>
           </div>
         </div>
@@ -49,12 +46,11 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2016-2017</h3>
+            <h3 className="topic">プログラミングの勉強開始</h3>
+            <p className="font-italic">2019夏</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              deserunt ab repellendus vel quisquam reprehenderit veniam optio,
-              quasi iusto corrupti nam ex molestiae explicabo sint, repudiandae
-              eius est delectus officia.
+              一番効率的に稼げそう、という軽い気持ちでプログラミングを始める。
+              しかし、これまでほとんどパソコンを触ったことがなかったので簡単な操作に苦戦する。
             </p>
           </div>
         </div>
@@ -62,25 +58,10 @@ const Experience = () => {
         <div className="timeline-block timeline-block-right">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3>2017-2018</h3>
+            <h3 className="topic">短期インターン</h3>
+            <p className="font-italic">2019 ~ 現在</p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              deserunt ab repellendus vel quisquam reprehenderit veniam optio,
-              quasi iusto corrupti nam ex molestiae explicabo sint, repudiandae
-              eius est delectus officia.
-            </p>
-          </div>
-        </div>
-        {/* - */}
-        <div className="timeline-block timeline-block-left">
-          <div className="marker"></div>
-          <div className="timeline-content">
-            <h3>2018-2020</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laborum
-              deserunt ab repellendus vel quisquam reprehenderit veniam optio,
-              quasi iusto corrupti nam ex molestiae explicabo sint, repudiandae
-              eius est delectus officia.
+              様々なイベントや短期インターンに参加。しかし、スキルがない自分にできることは少なく、無力さを痛感する。本格的にプログラミングの勉強を開始する。
             </p>
           </div>
         </div>

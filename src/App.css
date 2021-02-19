@@ -61,7 +61,7 @@ nav ul li {
 
 .header-wrapper {
   position: relative;
-  background: url(images/a_test003.jpg) no-repeat;
+  background: url(images/top.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -69,7 +69,7 @@ nav ul li {
 
 .header-wrapper::after {
   content: "";
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   left: 0;
   right: 0;
@@ -225,8 +225,8 @@ nav ul li {
   direction: ltr;
 }
 
-.timeline-content h3 {
-  margin-top: 0.3125rem;
+.timeline-content .date {
+  /* margin-top: 0.3125rem; */
   color: var(--primary-red);
   font-weight: 900;
 }
