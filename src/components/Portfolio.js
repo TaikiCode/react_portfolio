@@ -11,14 +11,19 @@ import {
   openPopupboxCoin,
   openPopupboxTodo,
   openPopupboxSns,
-} from "../components/PopupConfig";
+} from "../components/Popup";
 
 const Portfolio = () => {
   return (
     <div id="portfolio" className="portfolio-wrapper">
       <div className="container">
         <h1 className="text-uppercase text-center py-4">Portfolio</h1>
+
+
+
         <div className="row text-center my-5">
+
+          
           <div className="col-lg-3 col-md-6">
             <div className="card shadow-lg" onClick={openPopupboxEc}>
               <img className="portfolio-image" src={ec} alt="todo app..." />

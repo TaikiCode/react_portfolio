@@ -68,8 +68,16 @@ const openPopupboxTodo = () => {
         </div>
         <div className="col-lg-6">
           <div className="my-3">
+            <h4 className="font-italic">説明</h4>
+            <p>
+              react-hooksのuseState,
+              useEffectを理解するために、簡単なToDoアプリを作りました。実際のノートみたいなCSSデザインがお気に入りです。
+            </p>
+          </div>
+          <hr />
+          <div className="my-3">
             <h4 className="font-italic">使用言語など</h4>
-            <p>HTML/CSS,JavaScript, Bootstrap4</p>
+            <p>React, css</p>
           </div>
           <hr />
           <div className="my-3">
@@ -120,8 +128,20 @@ const openPopupboxCoin = () => {
         </div>
         <div className="col-lg-6">
           <div className="my-3">
+            <h4 className="font-italic">説明</h4>
+            <p>
+              コロナ禍でビットコインが市場最高値を3年ぶりに更新しました。
+              またビットコインだけでなく、イーサリアムなど他の有望な仮想通貨も同様に高騰しています。
+              これはそれらの有望な仮想通貨の値動きをリアルタイムで追跡するアプリです。
+            </p>
+          </div>
+          <hr />
+          <div className="my-3">
             <h4 className="font-italic">使用言語など</h4>
-            <p>React, Chart.js, axios, CoinGecko API, Bootstrap4</p>
+            <p>
+              React, react-router-dom, Chart.js, axios, CoinGecko API,
+              Bootstrap4
+            </p>
           </div>
           <hr />
           <div className="my-3">
@@ -168,8 +188,17 @@ const openPopupboxSns = () => {
         </div>
         <div className="col-lg-6">
           <div className="my-3">
+            <h4 className="font-italic">説明</h4>
+            <p>
+              Djangoでフォロワー機能、投稿に対するコメント機能、いいね機能があるSNSを作成しました。
+              signalを利用して自動的にプロフィールを作成したり、context_processorsで友達申請の通知を表示したりと、Djangoの機能を最大限利用しています。
+              シンプルなデザインにこだわりました。
+            </p>
+          </div>
+          <hr />
+          <div className="my-3">
             <h4 className="font-italic">使用言語など</h4>
-            <p>Django, HTML/CSS, Bootstrap4, Sqlite(開発), Postgresql(本番)</p>
+            <p>Django, widget_tweaks, HTML/CSS, Bootstrap4, Sqlite(開発), Postgresql(本番)</p>
           </div>
           <hr />
           <div className="my-3">
