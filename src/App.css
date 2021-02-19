@@ -231,10 +231,20 @@ nav ul li {
   font-weight: 900;
 }
 
+.topic {
+  color: var(--primary-hover-red);
+}
+
 /*------------ MEDIA ------------------*/
 @media (max-width: 768px) {
   .experience .container {
     padding-left: 0;
+  }
+  .topic {
+    font-size: 1.5rem;
+  }
+  .experience-text {
+    margin-bottom: 2rem;
   }
 
   .experience-wrapper::before {
@@ -342,10 +352,12 @@ nav ul li {
 .portfolio-wrapper .card {
   background-color: transparent;
   cursor: pointer;
+  opacity: 80%;
 }
 
 .portfolio-wrapper .card:hover {
   transform: scale(1.1, 1.1);
+  opacity: 100%;
   transition: 0.3s ease-in-out;
 }
 
