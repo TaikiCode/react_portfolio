@@ -7,9 +7,9 @@ const Contact = () => {
   const { register, handleSubmit, errors } = useForm();
 
   // emailjs アカウント情報
-  const serviceID = "hoge";
-  const templateID = "hoge";
-  const userID = "hogohoge";
+  const serviceID = process.env.REACT_APP_SERVICE_ID;
+  const templateID = process.env.REACT_APP_TEMPLATE_ID;
+  const userID = process.env.REACT_APP_USER_ID;
 
   // react-hook-form, emailjs
   const onSubmit = (data, r) => {
@@ -18,7 +18,6 @@ const Contact = () => {
       templateID,
       {
         name: data.name,
-        phone: data.phone,
         email: data.email,
         subject: data.subject,
         description: data.description,
@@ -63,7 +62,7 @@ const Contact = () => {
                     maxLength: {
                       value: 20,
                       message:
-                        "Please enter a name with fewer than 20 characters",
+                        "20文字以内で入力してください。",
                     },
                   })}
                 />
@@ -80,10 +79,10 @@ const Contact = () => {
                   placeholder="メールアドレス"
                   name="email"
                   ref={register({
-                    required: "Please provide you email",
+                    required: "メールアドレスを入力してください。",
                     pattern: {
                       value: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                      message: "invalid Email",
+                      message: "それは無効のメールアドレスです。",
                     },
                   })}
                 />
@@ -100,7 +99,7 @@ const Contact = () => {
                   placeholder="主題"
                   name="subject"
                   ref={register({
-                    required: "OOPS, you forget to add the subject.",
+                    required: "主題を入力してください。",
                   })}
                 />
                 <div className="line"></div>
@@ -118,7 +117,7 @@ const Contact = () => {
                   placeholder="お問い合わせ内容"
                   name="description"
                   ref={register({
-                    required: "Please describe shortly your project needs...",
+                    required: "お問い合わせ内容を入力してください。",
                   })}
                 ></textarea>
                 <div className="line"></div>
