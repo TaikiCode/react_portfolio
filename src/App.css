@@ -188,7 +188,7 @@ nav ul li {
   margin-left: -0.0625rem;
   width: 0.125rem;
   height: 100%;
-  background: var(--primary-grey);
+  background: var(--primary-dark-grey);
   z-index: 1;
 }
 
@@ -321,9 +321,11 @@ nav ul li {
 .column .js::before {
   width: 70%;
 }
+
 .column .react::before {
   width: 75%;
 }
+
 .column .python::before {
   width: 90%;
 }
@@ -341,7 +343,9 @@ nav ul li {
 /************************ PORTFOLIO *********************************/
 
 .portfolio-wrapper {
-  background: var(--primary-dark-grey);
+  /* background: var(--primary-grey); */
+  background-color: #262626;
+  /* background-color: #333333; */
   padding: 3rem 0;
 }
 
@@ -352,29 +356,24 @@ nav ul li {
 .portfolio-wrapper .card {
   background-color: transparent;
   cursor: pointer;
-  opacity: 80%;
+  z-index: 10;
 }
 
 .portfolio-wrapper .card:hover {
-  transform: scale(1.1, 1.1);
+  transform: scale(1.05, 1.05);
+  z-index: 20;
   opacity: 100%;
-  transition: 0.3s ease-in-out;
+  transition: 0.4s ease-in-out;
 }
 
 .portfolio-image {
   width: 100%;
-  border: 2px solid var(--primary-orange);
-  /* padding: 0 0.5rem; */
 }
 
 .portfolio-image-box {
   position: relative;
   margin: 1rem;
 }
-
-/* .popupbox-wrapper {
-  margin-top: 7rem;
-} */
 
 /************************ POPUP *********************************/
 
@@ -395,6 +394,8 @@ nav ul li {
 /*------------ MEDIA ------------------*/
 @media (max-width: 960px) {
   .portfolio-wrapper .card {
+    width: 70%;
+    margin: 0 auto;
     margin-bottom: 2rem;
   }
 }
@@ -429,7 +430,7 @@ nav ul li {
 /************************ CONTACTS COMPONENT *********************************/
 .contacts {
   /* background: var(--primary-dark); */
-  background-color: #262626;
+  background-color: #222222;
   padding: 3rem 0;
 }
 
