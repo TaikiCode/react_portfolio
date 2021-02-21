@@ -386,11 +386,11 @@ nav ul li {
 
 .hyper-link {
   cursor: pointer;
-  color: var(--primary-orange);
+  color: var(--primary-orange) !important;
 }
 
 .hyper-link:hover {
-  color: var(--primary-red);
+  color: var(--primary-red) !important;
 }
 
 /*------------ MEDIA ------------------*/

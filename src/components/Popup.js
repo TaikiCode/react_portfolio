@@ -17,6 +17,13 @@ const openPopupboxEc = () => {
           <img className="portfolio-image-popupbox" src={ec} alt="test01..." />
         </div>
         <div className="col-lg-6">
+        <div className="my-3">
+            <h4 className="popup-topic">説明</h4>
+            <p className="popup-text">
+              自分が初めて作成したサイトです。このサイト作成を通じてBootstrapの使い方を理解しました。
+            </p>
+          </div>
+          <hr />
           <div className="my-3">
             <h4 className="popup-topic">使用言語など</h4>
             <p>HTML/CSS, JavaScript, Bootstrap4</p>
@@ -200,7 +207,7 @@ const openPopupboxSns = () => {
           <hr />
           <div className="my-3">
             <h4 className="popup-topic">使用言語など</h4>
-            <p>Django, widget_tweaks, HTML/CSS, Bootstrap4, Sqlite(開発), Postgresql(本番)</p>
+            <p>Django, widget_tweaks, Sqlite(開発), Postgresql(本番), heroku, AWS S3, HTML/CSS, Bootstrap4,</p>
           </div>
           <hr />
           <div className="my-3">
@@ -211,10 +218,10 @@ const openPopupboxSns = () => {
               <a
                 className="hyper-link"
                 onClick={() =>
-                  window.open("https://github.com/TaikiCode/django_sns")
+                  window.open("https://github.com/TaikiCode/django_sns_deploy")
                 }
               >
-                https://github.com/TaikiCode/django_sns
+                https://github.com/TaikiCode/django_sns_deploy
               </a>
               <br />
               <b>demo : </b>
@@ -222,10 +229,10 @@ const openPopupboxSns = () => {
               <a
                 className="hyper-link"
                 onClick={() =>
-                  window.open("https://taikicode.github.io/react_coin-tracker/")
+                  window.open("https://django-simple-sns.herokuapp.com/")
                 }
               >
-                https://taikicode.github.io/react_coin-tracker/
+                https://django-simple-sns.herokuapp.com/
               </a>
             </div>
           </div>
@@ -250,6 +257,7 @@ const openPopupboxPortfolio = () => {
             <h4 className="popup-topic">説明</h4>
             <p className="popup-text">
               Reactで作成した自分のポートフォリオサイトです。
+              react-hook-formなどの便利な外部ライブラリをたくさん利用して作成しました。
             </p>
           </div>
           <hr />
@@ -266,10 +274,10 @@ const openPopupboxPortfolio = () => {
               <a
                 className="hyper-link"
                 onClick={() =>
-                  window.open("https://github.com/TaikiCode/django_sns")
+                  window.open("https://github.com/TaikiCode/react_portfolio")
                 }
               >
-                https://github.com/TaikiCode/django_sns
+                https://github.com/TaikiCode/react_portfolio
               </a>
               <br />
               <b>demo : </b>

@@ -25,8 +25,8 @@ const Experience = () => {
             <h3 className="topic">引きこもり</h3>
             <p className="font-italic">2015 ~ 2017</p>
             <p className="experience-text">
-              高校時代にオンラインゲームやYouTubeにハマりほぼ不登校になる。
-              しかし、偏差値40台の底辺高校だったのでなんとか卒業に成功する。
+              高校時代にオンラインゲームやYouTubeにハマりほぼ不登校になるが、
+              偏差値40台の底辺高校だったのでなんとか卒業に成功する。
             </p>
           </div>
         </div>
@@ -46,7 +46,7 @@ const Experience = () => {
         <div className="timeline-block timeline-block-left">
           <div className="marker"></div>
           <div className="timeline-content">
-            <h3 className="topic">プログラミングの勉強開始</h3>
+            <h3 className="topic">プログラミング</h3>
             <p className="font-italic">2019夏</p>
             <p className="experience-text">
               一番効率的に稼げそう、という軽い気持ちでプログラミングを始める。
@@ -59,9 +59,10 @@ const Experience = () => {
           <div className="marker"></div>
           <div className="timeline-content">
             <h3 className="topic">短期インターン</h3>
-            <p className="font-italic">2019 ~ 現在</p>
+            <p className="font-italic">2020 ~ 現在</p>
             <p className="experience-text">
-              様々なイベントや短期インターンに参加。しかし、スキルがない自分にできることは少なく、無力さを痛感する。本格的にプログラミングの勉強を開始する。
+              様々なイベントや短期インターンに参加。しかし、スキルがない自分にできることは少なく、無力さを痛感する。
+              また、将来IT系で仕事をしようと決意し、本格的にプログラミングの勉強を開始する。
             </p>
           </div>
         </div>
