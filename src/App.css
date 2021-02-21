@@ -350,15 +350,14 @@ nav ul li {
 
 .portfolio-wrapper .card {
   background-color: transparent;
+  filter: grayscale(100%);
   cursor: pointer;
-  z-index: 10;
 }
 
 .portfolio-wrapper .card:hover {
-  box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-  transform: translateY(-10px);
+  background-color: var(--primary-orange);
+  filter: grayscale(0);
   transition-duration: 0.5s;
-  z-index: 20;
 }
 
 .portfolio-image {

@@ -285,10 +285,10 @@ const openPopupboxPortfolio = () => {
               <a
                 className="hyper-link"
                 onClick={() =>
-                  window.open("https://taikicode.github.io/react_coin-tracker/")
+                  window.open("https://taikicode.github.io/react_portfolio/")
                 }
               >
-                https://taikicode.github.io/react_coin-tracker/
+                https://taikicode.github.io/react_portfolio/
               </a>
             </div>
           </div>
