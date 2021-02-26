@@ -1,6 +1,6 @@
 import React from "react";
-import ec from "../images/ec.png";
-import todo from "../images/todo.png";
+import gallery from "../images/gallery.png";
+import typing_game from "../images/typing-game.png";
 import coin_tracker from "../images/coin-tracker.png";
 import sns from "../images/sns.png";
 import portfolio from "../images/portfolio.png";
@@ -40,7 +40,7 @@ const Portfolio = () => {
         <div className="row justify-content-center mb-4">
           <div className="col-lg-4 p-0">
             <div className="card" onClick={openPopupboxEc}>
-              <img className="portfolio-image" src={ec} alt="Ec Site" />
+              <img className="portfolio-image" src={gallery} alt="Ec Site" />
             </div>
           </div>
           <div className="col-lg-4 p-0">
@@ -54,7 +54,7 @@ const Portfolio = () => {
           </div>
           <div className="col-lg-4 p-0">
             <div className="card" onClick={openPopupboxTodo}>
-              <img className="portfolio-image" src={todo} alt="Todo App" />
+              <img className="portfolio-image" src={typing_game} alt="Todo App" />
             </div>
           </div>
         </div>

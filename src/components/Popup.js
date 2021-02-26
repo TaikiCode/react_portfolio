@@ -1,7 +1,7 @@
 import "react-popupbox/dist/react-popupbox.css";
 import { PopupboxManager } from "react-popupbox";
-import ec from "../images/ec.png";
-import todo from "../images/todo.png";
+import gallery from "../images/gallery.png";
+import typing_game from "../images/typing-game.png";
 import coin_tracker from "../images/coin-tracker.png";
 import sns from "../images/sns.png";
 import portfolio from "../images/portfolio.png";
@@ -10,23 +10,24 @@ import portfolio from "../images/portfolio.png";
 const openPopupboxEc = () => {
   const content = (
     <>
-      <h2 className="text-center font-italic">ECサイト</h2>
+      <h2 className="text-center font-italic">Gallery</h2>
       <hr />
       <div className="row">
         <div className="col-lg-6">
-          <img className="portfolio-image-popupbox" src={ec} alt="test01..." />
+          <img className="portfolio-image-popupbox" src={gallery} alt="test01..." />
         </div>
         <div className="col-lg-6">
         <div className="my-3">
             <h4 className="popup-topic">説明</h4>
             <p className="popup-text">
-              自分が初めて作成したサイトです。このサイト作成を通じてBootstrapの使い方を理解しました。
+              reactの外部ライブラリであるsimple-react-lightboxを利用して、ギャラリーサイトを作りました。
+              画像はunsplash.comからランダムに取得しています。お洒落な写真をお楽しみください。
             </p>
           </div>
           <hr />
           <div className="my-3">
             <h4 className="popup-topic">使用言語など</h4>
-            <p>HTML/CSS, JavaScript, Bootstrap4</p>
+            <p>React, simple-react-lightbox, Bootstrap4, css, unsplash（画像）</p>
           </div>
           <hr />
           <div className="my-3">
@@ -37,10 +38,10 @@ const openPopupboxEc = () => {
               <a
                 className="hyper-link"
                 onClick={() =>
-                  window.open("https://github.com/TaikiCode/html_ec")
+                  window.open("https://github.com/TaikiCode/react_gallery")
                 }
               >
-                https://github.com/TaikiCode/html_ec
+                https://github.com/TaikiCode/react_gallery
               </a>
               <br />
               <b>demo : </b>
@@ -48,10 +49,10 @@ const openPopupboxEc = () => {
               <a
                 className="hyper-link"
                 onClick={() =>
-                  window.open("https://taikicode.github.io/html_ec/")
+                  window.open("https://taikicode.github.io/react_gallery/")
                 }
               >
-                https://taikicode.github.io/html_ec/
+                https://taikicode.github.io/react_gallery/
               </a>
             </div>
           </div>
@@ -65,13 +66,13 @@ const openPopupboxEc = () => {
 const openPopupboxTodo = () => {
   const content = (
     <>
-      <h2 className="text-center font-italic">ToDo</h2>
+      <h2 className="text-center font-italic">Typing Game</h2>
       <hr />
       <div className="row">
         <div className="col-lg-6">
           <img
             className="portfolio-image-popupbox"
-            src={todo}
+            src={typing_game}
             alt="test01..."
           />
         </div>
@@ -125,7 +126,7 @@ const openPopupboxTodo = () => {
 const openPopupboxCoin = () => {
   const content = (
     <>
-      <h2 className="text-center font-italic">Coin-Tracker</h2>
+      <h2 className="text-center font-italic">Coin-Trackr</h2>
       <hr />
       <div className="row">
         <div className="col-lg-6">
