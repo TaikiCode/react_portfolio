@@ -8,9 +8,9 @@ import portfolio from "../images/portfolio.png";
 import "react-popupbox/dist/react-popupbox.css";
 import { PopupboxContainer } from "react-popupbox";
 import {
-  openPopupboxEc,
+  openPopupboxGallery,
   openPopupboxCoin,
-  openPopupboxTodo,
+  openPopupboxTypingGame,
   openPopupboxSns,
   openPopupboxPortfolio,
 } from "../components/Popup";
@@ -39,7 +39,7 @@ const Portfolio = () => {
         </div>
         <div className="row justify-content-center mb-4">
           <div className="col-lg-4 p-0">
-            <div className="card" onClick={openPopupboxEc}>
+            <div className="card" onClick={openPopupboxGallery}>
               <img className="portfolio-image" src={gallery} alt="Ec Site" />
             </div>
           </div>
@@ -53,7 +53,7 @@ const Portfolio = () => {
             </div>
           </div>
           <div className="col-lg-4 p-0">
-            <div className="card" onClick={openPopupboxTodo}>
+            <div className="card" onClick={openPopupboxTypingGame}>
               <img className="portfolio-image" src={typing_game} alt="Todo App" />
             </div>
           </div>

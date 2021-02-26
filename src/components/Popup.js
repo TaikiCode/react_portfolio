@@ -7,7 +7,7 @@ import sns from "../images/sns.png";
 import portfolio from "../images/portfolio.png";
 
 
-const openPopupboxEc = () => {
+const openPopupboxGallery = () => {
   const content = (
     <>
       <h2 className="text-center font-italic">Gallery</h2>
@@ -63,7 +63,7 @@ const openPopupboxEc = () => {
   PopupboxManager.open({ content });
 };
 
-const openPopupboxTodo = () => {
+const openPopupboxTypingGame = () => {
   const content = (
     <>
       <h2 className="text-center font-italic">Typing Game</h2>
@@ -80,8 +80,9 @@ const openPopupboxTodo = () => {
           <div className="my-3">
             <h4 className="popup-topic">説明</h4>
             <p className="popup-text">
-              react-hooksのuseState,
-              useEffectを理解するために、簡単なToDoアプリを作りました。実際のノートみたいなCSSデザインがお気に入りです。
+              react-hooksのuseState,useEffectを理解するために、タイピングゲームを作りました。
+              少しでも実用的なものにするために、正確にタイプできた単語とできなかった単語をすぐに確認できるようにしています。
+              ぜひ挑戦してみてください。
             </p>
           </div>
           <hr />
@@ -98,10 +99,10 @@ const openPopupboxTodo = () => {
               <a
                 className="hyper-link"
                 onClick={() =>
-                  window.open("https://github.com/TaikiCode/react_todo")
+                  window.open("https://github.com/TaikiCode/react_typing-game")
                 }
               >
-                https://github.com/TaikiCode/react_todo
+                https://github.com/TaikiCode/react_typing-game
               </a>
               <br />
               <b>demo : </b>
@@ -109,10 +110,10 @@ const openPopupboxTodo = () => {
               <a
                 className="hyper-link"
                 onClick={() =>
-                  window.open("https://taikicode.github.io/react_todo/")
+                  window.open("https://taikicode.github.io/react_typing-game/")
                 }
               >
-                https://taikicode.github.io/react_todo/
+                https://taikicode.github.io/react_typing-game/
               </a>
             </div>
           </div>
@@ -301,4 +302,4 @@ const openPopupboxPortfolio = () => {
 };
 
 
-export { openPopupboxEc, openPopupboxTodo, openPopupboxCoin, openPopupboxSns, openPopupboxPortfolio };
+export { openPopupboxGallery, openPopupboxTypingGame, openPopupboxCoin, openPopupboxSns, openPopupboxPortfolio };
